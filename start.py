@@ -11,7 +11,7 @@ os.system("cls" if os.name=="nt" else "clear")
 if __name__ == "__main__":
 	if os.name == "posix":
 		target = platform.machine()
-		if target in ('aarch64', 'armv*'):
+		if target in ('aarch6*', 'armv*', 'arm6*'):
 			target = 'aarch64'
 		bins_path = "local/bin/{}/".format(target)
 		username = pwd.getpwuid(os.getuid()).pw_name
