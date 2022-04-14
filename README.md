@@ -1,33 +1,35 @@
 
-# 启动方法
-使用前需在Termux中配置好ubuntu focal并启动至ubuntu focal
-下载
-git clone https://gitee.com/sharpeter/DNA2 -b feature --depth 1
-启动
-cd DNA2 && python3 start.py
+####  **启动方法** 
 
-# 开发者信息
+-  **使用前需在Termux中配置好ubuntu focal并启动至ubuntu focal** 
+
+-  _下载_ 
+`git clone https://gitee.com/sharpeter/DNA2 -b feature --depth 1`
+
+-  _启动_ 
+`cd DNA2 && python3 start.py`
+
+####  **作者信息** 
 Errors @Coolapk
 
-# 交流反馈
+####  **交流反馈** 
 QQGroup: 578517063 [D.N.A]
 
-# 项目发布
+####  **项目发布** 
 https://gitee.com/sharpeter/DNA2
 
-
-# 未注明事项参见
+####  **未注明事项参见** 
 https://gitee.com/sharpeter/DNA
 
-# 特别鸣谢
+####  **特别鸣谢** 
 丧 —— 提供修复并编译后的mkfs.erofs及erofsUnpackRust
 
-# 重要提示
-工具采用大量自定义参数供用户自主配置         
-任何错误的修改和操作都有可能导致本工具无法运行    
-请不要在你不了解或不明白的情况下对这些文件进行修改或删除
+####  **重要提示** 
+1. 工具采用大量自定义参数供用户自主配置         
+2. 任何错误的修改和操作都有可能导致本工具无法运行    
+3. 请不要在你不了解或不明白的情况下对这些文件进行修改或删除
 
-# 免责声明
+####  **免责声明** 
 1. 本工具免费使用，闭源，使用的开源库均在链接页贴出！
 2. 本工具在【启动时】需要连接网络进行版本检测和版本控制，开发者拥有版本控制[停用版本、删库跑路]等权利！
 3. 本工具【合成img】功能会向build.prop中写入工具推广信息以及打包参数，请不要使用[篡改、闭源不安全]等词语进行批评、抹黑，介意勿用！
