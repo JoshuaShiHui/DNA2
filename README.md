@@ -9,6 +9,14 @@
 -  _启动_ 
 `cd DNA2 && python3 start.py`
 
+####  **使用说明**
+ _ 以下说明均是在Termux获取存储读写权限的情况下 _
+1. zip格式rom文件以及插件:  内置存储/Download
+2. 分解输入文件夹:  内置存储/Download/D.N.A/你新建的工程名字/001_DNA       (img, new.dat, new.dat.br)放里面
+3. 合成输出文件夹:  内置存储/Download/D.N.A/你新建的工程名字/002_DNA文件夹为合成   
+
+
+
 ####  **作者信息** 
 Errors @Coolapk
 
